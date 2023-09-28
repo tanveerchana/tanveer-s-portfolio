@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Tektur";
+    src: url("./assets/Tektur/Tektur-VariableFont_wdth\,wght.ttf");
+  }
+
+html {
+    font-family: 'Tektur', cursive;
+}
+.circle {
+  margin-top: 5px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #fd7900;
+  transition: all 0.2s ease;
+}
+
+.square {
+  width: 22px;
+  height: 22px;
+  border-radius: 0;
+  background-color: #0040ff;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 22px solid #00ff29;
+}
